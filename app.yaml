@@ -1,0 +1,7 @@
+# [START app_yaml]
+runtime: nodejs18
+instance_class: F1
+automatic_scaling:
+  max_instances: 1
+service_account: jrchan-ca-service-account@personal-website-b718f.iam.gserviceaccount.com
+# [END app_yaml]
