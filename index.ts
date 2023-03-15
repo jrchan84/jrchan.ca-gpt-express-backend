@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const app: Express = express();
+// Trust App Engine proxy for user IP address connections.
 app.set('trust proxy', true);
 const port = process.env.PORT;
 
